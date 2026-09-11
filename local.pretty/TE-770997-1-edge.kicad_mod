@@ -1,0 +1,130 @@
+(footprint "TE-770997-1-edge"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f8656699-c367-4f68-ba44-e44b2bda2045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TE-770997-1-edge"
+		(at -7.62 -5.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dab6f0ea-1b9d-44c6-9b28-53022456a03d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d987f5b-6567-47db-9943-04c7c36df43f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b980e68e-e88c-468d-a348-26e7d7e812d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at -7.62 -3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e09c718-ba7e-4e94-aa59-f784bad5fd63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -7.62 -1.27)
+		(size 4 8)
+		(drill oval 2 6
+			(offset 0 2)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.025)
+		(uuid "1b3c5c2f-2ccb-4b0a-97d9-919a40780346")
+	)
+	(pad "2" thru_hole roundrect
+		(at -2.54 -1.27)
+		(size 4 8)
+		(drill oval 2 6
+			(offset 0 2)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.025)
+		(uuid "5c888d22-b199-4882-b491-bbffd3bcee97")
+	)
+	(pad "3" thru_hole roundrect
+		(at 2.54 -1.27)
+		(size 4 8)
+		(drill oval 2 6
+			(offset 0 2)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.025)
+		(uuid "031ae471-3cf2-4984-ac08-ed3e43e80c21")
+	)
+	(pad "4" thru_hole roundrect
+		(at 7.62 -1.27)
+		(size 4 8)
+		(drill oval 2 6
+			(offset 0 2)
+		)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.025)
+		(uuid "1f74bab5-7d45-499e-8656-4967166c44ee")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/local.3dshapes/c-770997-1-b-3d.stp"
+		(offset
+			(xyz 7.5 8.5 -0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
