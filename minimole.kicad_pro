@@ -50,23 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 1,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.05,
+          "pad_connection": 3,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.2,
+          "thermal_relief_spoke_width": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -533,8 +533,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
-        "via_diameter": 0.75,
-        "via_drill": 0.45
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -551,10 +551,16 @@
       "Net-(D2-K)": [
         "power"
       ],
+      "Net-(F3-Pad1)": [
+        "power"
+      ],
       "Net-(J2-Pin_1)": [
         "power"
       ],
       "Net-(J2-Pin_4)": [
+        "power"
+      ],
+      "Net-(Q1A-S1)": [
         "power"
       ],
       "Net-(U1-FB)": [
@@ -707,7 +713,7 @@
         "uuid": "f0787b95-386f-463d-b5ce-8ad87377e61e"
       }
     ],
-    "used_designators": "L1-2,J1-2,PN1,CN1,R1-7,H1-7,Q1,U1-4,C1-11,FB1-2,D1-3,#PWR1-24",
+    "used_designators": "F1-3,NT1,J1-2,L1-2,PN1,CN1,H1-7,R1-11,LED1,Q1-2,#PWR1-33,D1-3,FB1-2,C1-13,U1-4",
     "variants": []
   },
   "sheets": [
