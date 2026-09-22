@@ -591,7 +591,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "jlcpcb/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
